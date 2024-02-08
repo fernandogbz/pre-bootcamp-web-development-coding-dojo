@@ -1,1 +1,1 @@
-# bootcamp-web-development-coding-dojo
+# pre-bootcamp-web-development-coding-dojo
