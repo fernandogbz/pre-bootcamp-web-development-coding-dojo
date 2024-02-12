@@ -13,3 +13,11 @@ function muestraListaDeCompras() {
     console.log(frozen); // ['brócoli', 'helado', 'croqueta de papa']
 }
 muestraListaDeCompras();
+
+// Fragmento de código 3
+var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
+movieLibrary.push("Zoro");
+movieLibrary[1] = "Beetlejuice";
+console.log(movieLibrary); // ["Bambi", "Beetlejuice", "Toy Story", "Zoro"];
+
+
