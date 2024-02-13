@@ -43,3 +43,12 @@ var result = timesTwo(10);
 console.log(result); // 20
 console.log(num); // 15
 
+// Fragmento de código 6
+function timesTwoAgain(num) {
+    console.log('num is', num); // num is 3, num is 5
+    var y = num*2;
+    return y;
+}
+var result = timesTwoAgain(3) + timesTwoAgain(5);
+console.log('result is', result); // result is 16
+
