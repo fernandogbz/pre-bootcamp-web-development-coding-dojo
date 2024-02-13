@@ -21,3 +21,25 @@ function numPlus(num) {
 var result = numPlus(3);
 console.log('result is', result); // result is 18
 
+// Fragmento de código 4: hay un giro
+var num = 15;
+console.log(num); // 15
+function logAndReturn(num2){
+    console.log(num2); // 10
+    return num2;
+}
+var result = logAndReturn(10);
+console.log(result); // 10
+console.log(num); // 15
+
+// Fragmento de código 5
+var num = 15;
+console.log(num); // 15
+function timesTwo(num2){
+    console.log(num2);  // 10
+    return num2*2;
+}
+var result = timesTwo(10);
+console.log(result); // 20
+console.log(num); // 15
+
