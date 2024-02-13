@@ -59,3 +59,11 @@ function sumNums(num1, num2) {
 console.log(sumNums(2,3)) // 5
 console.log(sumNums(3,5)) // 8
 
+// Fragmento de código 8
+function printSumNums(num1, num2) {
+    console.log(num1);  // 2, 3
+    return num1+num2;
+}
+console.log(printSumNums(2,3)) // 5
+console.log(printSumNums(3,5)) // 8
+
