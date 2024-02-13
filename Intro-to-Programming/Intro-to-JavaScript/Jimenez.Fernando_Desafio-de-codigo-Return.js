@@ -67,3 +67,13 @@ function printSumNums(num1, num2) {
 console.log(printSumNums(2,3)) // 5
 console.log(printSumNums(3,5)) // 8
 
+// Fragmento de código 9
+function sumNums(num1, num2) {
+    var sum = num1 + num2;
+    console.log('sum is', sum); // sum is 5, sum is 8
+    return sum;
+}
+var result = sumNums(2,3) + sumNums(3,5);
+console.log('result is', result); // result is 13
+
+
