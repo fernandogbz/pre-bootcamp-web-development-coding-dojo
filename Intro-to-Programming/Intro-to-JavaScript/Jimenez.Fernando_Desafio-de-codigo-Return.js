@@ -52,3 +52,10 @@ function timesTwoAgain(num) {
 var result = timesTwoAgain(3) + timesTwoAgain(5);
 console.log('result is', result); // result is 16
 
+// Fragmento de código 7
+function sumNums(num1, num2) {  
+    return num1+num2;
+}
+console.log(sumNums(2,3)) // 5
+console.log(sumNums(3,5)) // 8
+
